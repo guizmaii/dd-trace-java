@@ -8,7 +8,6 @@ import java.net.URL;
 public class Utils {
   /* packages which will be loaded on the bootstrap classloader*/
   public static final String[] BOOTSTRAP_PACKAGE_PREFIXES = {
-    "com.blogspot.mydailyjava.weaklockfree",
     "io.opentracing",
     "datadog.slf4j",
     "datadog.trace.bootstrap",
